@@ -1,0 +1,69 @@
+/*.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+*/
+html, body {
+  text-align: center;
+  background-color: #3ADFA5;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+    list-style-type: none;
+    padding-right: 5px; 
+    font-family: 'Baloo Bhaijaan', cursive;
+    padding: 10px 5px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+   font-family: 'Baloo Bhaijaan', cursive;
+}
+
+#userinput {
+  padding: 5px 10px;
+  width: 200px;
+  font-size: 15px;
+}
+
+#enter {
+  padding: 6px 12px;
+/*  padding-bottom: 20px;*/
+}
+
+.box {
+  border: 2px solid black;
+  width: 50px
+  height: 50px;
+}
